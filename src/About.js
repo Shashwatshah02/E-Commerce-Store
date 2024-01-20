@@ -1,9 +1,8 @@
-import React from 'react'
+import React from "react";
+import HeroComponent from "./components/HeroComponent";
 
 const About = () => {
-  return (
-    <div>About</div>
-  )
-}
+  return <HeroComponent data="Thappa Ecommerce"></HeroComponent>;
+};
 
 export default About;
